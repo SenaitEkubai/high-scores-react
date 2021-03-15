@@ -11,7 +11,7 @@ const HighScoreTables = () => {
     return 1;
   });
   return (
-    <div>
+    <div className="card ml-auto mr-auto" style={{ width: "35rem" }}>
       <h1 className="card-title">High Scores Per Country</h1>
       {allCountryScores.map((item) => (
         <>
