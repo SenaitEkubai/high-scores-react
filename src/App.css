@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -36,10 +38,16 @@
     transform: rotate(360deg);
   }
 }
-/* my styles */
-/* .card {
-  border: 5px solid green;
+.card {
+  border: 10px solid green;
 }
-.card-title {
-  border: 2px solid red;
-} */
+.highScoreCountry {
+  border: 5px solid purple;
+}
+.table {
+  border: 5px solid rgb(85, 85, 84);
+}
+.countryTable {
+  border: 5px solid rgb(240, 97, 14);
+  margin-top: 2%;
+}

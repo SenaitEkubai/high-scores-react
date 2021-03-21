@@ -3,9 +3,9 @@ import React from "react";
 const PlayerScore = (props) => {
   return (
     <div>
-      <table className="table table-stripped table-dark  text-center">
+      <table className="table table-stripped  text-center">
         <tbody>
-          <tr>
+          <tr key>
             <td>{props.n} </td>
             <td>{props.s}</td>
           </tr>
