@@ -30,7 +30,7 @@ const HighScoreTables = () => {
   }
 
   return (
-    <div className="card ml-auto mr-auto" style={{ width: "38rem" }}>
+    <div className="card" style={{ width: "38rem" }}>
       <h1 className="card-title">High Scores Per Country</h1>
 
       <SortButton handler={changeSortOrder} buttonName={buttonName} />
