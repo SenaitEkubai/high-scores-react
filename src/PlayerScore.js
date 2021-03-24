@@ -5,7 +5,7 @@ const PlayerScore = (props) => {
     <div>
       <table className="table table-stripped  text-center">
         <tbody>
-          <tr key>
+          <tr>
             <td>{props.n} </td>
             <td>{props.s}</td>
           </tr>
