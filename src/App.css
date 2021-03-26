@@ -49,14 +49,25 @@
 .table {
   border: 2px solid rgb(85, 85, 84);
 }
+.table tr :nth-child(2) {
+  color: rgb(228, 116, 25);
+}
 .countryTable {
   border: 10px solid rgb(240, 97, 14);
   margin-top: 2%;
 }
 .world-wide {
+  height: 75%;
   border: 10px solid rgb(14, 116, 14);
   background-color: white;
 }
 .world-wide table {
   border: 10px solid rgb(85, 85, 84);
+}
+.world-wide table tr {
+  border: 3px solid rgb(85, 85, 84);
+  padding-top: 50px;
+}
+.world-wide table tr :nth-child(2) {
+  color: rgb(228, 116, 25);
 }
