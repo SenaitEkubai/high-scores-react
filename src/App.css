@@ -1,5 +1,5 @@
 .App {
-  background-color: rgb(199, 184, 184);
+  background-color: rgb(150, 146, 146);
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -41,15 +41,22 @@
   }
 }
 .card {
-  border: 10px solid green;
+  border: 10px solid rgb(4, 71, 4);
 }
 .highScoreCountry {
   border: 5px solid purple;
 }
 .table {
-  border: 5px solid rgb(85, 85, 84);
+  border: 2px solid rgb(85, 85, 84);
 }
 .countryTable {
-  border: 5px solid rgb(240, 97, 14);
+  border: 10px solid rgb(240, 97, 14);
   margin-top: 2%;
+}
+.world-wide {
+  border: 10px solid rgb(14, 116, 14);
+  background-color: white;
+}
+.world-wide table {
+  border: 10px solid rgb(85, 85, 84);
 }
